@@ -53,6 +53,13 @@ export class demoLoginpage {
         await this.enterUsername(username_input)
         await this.enterPassword(password_input)
         await this.login_btn()
+    }
+
+    async assert_successful_login(){
+        await expect(this.successful_login).toBeVisible();
+    }
+
+    async assert_invalid_login(){
         await expect(this.invalid_login_error).toBeVisible();
     }
 
