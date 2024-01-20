@@ -1,0 +1,1038 @@
+{
+  "config": {
+    "configFile": "/Users/paupau/Desktop/Coding-Projects/Aquaprojects/POM_Playwright/playwright.config.ts",
+    "rootDir": "/Users/paupau/Desktop/Coding-Projects/Aquaprojects/POM_Playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/paupau/Desktop/Coding-Projects/Aquaprojects/POM_Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/paupau/Desktop/Coding-Projects/Aquaprojects/POM_Playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/paupau/Desktop/Coding-Projects/Aquaprojects/POM_Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/paupau/Desktop/Coding-Projects/Aquaprojects/POM_Playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/paupau/Desktop/Coding-Projects/Aquaprojects/POM_Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/paupau/Desktop/Coding-Projects/Aquaprojects/POM_Playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.40.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests_practice/demo-login.spec.ts",
+      "file": "tests_practice/demo-login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Demo_Login",
+          "file": "tests_practice/demo-login.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Successful Login: with valid credentials student and Password123 ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 7438,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:20.961Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-c7539da6947cde437bdb",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 27,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials   and Password123",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 3334,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        },
+                        {
+                          "text": "Done with test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:29.021Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-da0f4fc6ac9a9d55e4dd",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials student and  ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 4404,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:20.963Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-ba9b6335bd954848a170",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials student and password123",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 2449,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        },
+                        {
+                          "text": "Done with test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:25.989Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-6c6bb43aa9bd7af086a9",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials studen2 and Password123",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 4545,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:20.959Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-390ae7fae109de233371",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials   and  ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 2413,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        },
+                        {
+                          "text": "Done with test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:26.138Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-1c0f913e72da4f29fbe0",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Successful Login: with valid credentials student and Password123 ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 3940,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:28.644Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-7f400ecd7cc46a426056",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 27,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials   and Password123",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 2862,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        },
+                        {
+                          "text": "Done with test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:33.451Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-cf57a550b5dffc9d36ea",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials student and  ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 3107,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:28.746Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-e9834a40c41f8d47afcb",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials student and password123",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 2961,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        },
+                        {
+                          "text": "Done with test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:32.616Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-98de601aa28b8f18c927",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials studen2 and Password123",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 3001,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:28.772Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-ab17d9e38a3ed7a04c1a",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials   and  ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 3066,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        },
+                        {
+                          "text": "Done with test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:32.517Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-1d053b3a7c713be861cb",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Successful Login: with valid credentials student and Password123 ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "passed",
+                      "duration": 4281,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:36.051Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-8156c82d0e51208d840d",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 27,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials   and Password123",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "status": "passed",
+                      "duration": 2253,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        },
+                        {
+                          "text": "Done with test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:40.657Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-9107385db85ed02fb891",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials student and  ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "status": "passed",
+                      "duration": 3090,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:36.051Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-f65333f99b3a24cd84c5",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials student and password123",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "status": "passed",
+                      "duration": 2719,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        },
+                        {
+                          "text": "Done with test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:39.470Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-2250ca18bc72756c0912",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials studen2 and Password123",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "status": "passed",
+                      "duration": 2678,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:36.858Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-b7195a620a89a21c41ff",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            },
+            {
+              "title": "Invalid Login: with invalid credentials   and  ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "status": "passed",
+                      "duration": 2488,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Before Each works for each test case\n"
+                        },
+                        {
+                          "text": "After Each works for each test case\n"
+                        },
+                        {
+                          "text": "Done with test case\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-01-20T19:37:39.667Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d4a680b459808b54c676-0758a4e6df44042b4e9c",
+              "file": "tests_practice/demo-login.spec.ts",
+              "line": 37,
+              "column": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests_practice/example.spec.ts",
+      "file": "tests_practice/example.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "getting started should contain table of contents",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 4924,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-20T19:37:20.961Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "081e470a1f5371d484de-e5d74454605c5fd43b5d",
+          "file": "tests_practice/example.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "should show Page Object Model article",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 2065,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-20T19:37:26.516Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "081e470a1f5371d484de-9e1217ba8b56e24424fb",
+          "file": "tests_practice/example.spec.ts",
+          "line": 20,
+          "column": 5
+        },
+        {
+          "title": "getting started should contain table of contents",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "status": "passed",
+                  "duration": 2493,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-20T19:37:32.592Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "081e470a1f5371d484de-2befc2012b6a4178eac5",
+          "file": "tests_practice/example.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "should show Page Object Model article",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "status": "passed",
+                  "duration": 2417,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-20T19:37:35.550Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "081e470a1f5371d484de-cb18b95583abd25f1e87",
+          "file": "tests_practice/example.spec.ts",
+          "line": 20,
+          "column": 5
+        },
+        {
+          "title": "getting started should contain table of contents",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "status": "passed",
+                  "duration": 1651,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-20T19:37:38.452Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "081e470a1f5371d484de-4bd5711b738b249113ce",
+          "file": "tests_practice/example.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "should show Page Object Model article",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "status": "passed",
+                  "duration": 2439,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-20T19:37:40.225Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "081e470a1f5371d484de-20c89df0aa6054946e0b",
+          "file": "tests_practice/example.spec.ts",
+          "line": 20,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-01-20T19:37:20.757Z",
+    "duration": 22172.693000000003,
+    "expected": 24,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -6,7 +6,7 @@ test('getting started should contain table of contents', async ({ page }) => {
   await playwrightDev.goto();
   await playwrightDev.getStarted();
   await expect(playwrightDev.tocList).toHaveText([
-                                                   `How to install Playwright`,
+                                                  `How to install Playwright`,
                                                    `What's Installed`,
                                                    `How to run the example test`,
                                                    `How to open the HTML test report`,
