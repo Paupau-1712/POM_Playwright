@@ -1,17 +1,17 @@
+//Login
 
-export type LoginParams = {
+export type AdminLoginParams = {
     tcid:string;
     username: string;
     password: string;
 };
 
-export const valid_login_creds: LoginParams[] = [
+export const valid_login_creds: AdminLoginParams[] = [
     { tcid:'TC001',username: 'student',
         password: 'Password123' },
 ];
 
-
-export const invalid_login_creds: LoginParams[] = [
+export const invalid_login_creds: AdminLoginParams[] = [
     { tcid:'TC002', username: ' ', password: 'Password123' },
     { tcid:'TC003', username: 'student', password: ' ' },
     { tcid:'TC004', username: 'student', password: 'password123' },
