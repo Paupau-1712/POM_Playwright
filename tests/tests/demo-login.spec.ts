@@ -45,7 +45,3 @@ test.describe('Demo_Login', () => {
 
     // Add more tests as needed
 });
-
-test.describe('Orange_Admin_Login',()=>{
-
-              });
